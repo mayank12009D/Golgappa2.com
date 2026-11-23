@@ -1,0 +1,22 @@
+{
+  "name": "the-golgappa-house",
+  "version": "1.0.0",
+  "description": "Premium Golgappa & Pani Puri Catering Services Website",
+  "engines": {
+    "node": "24.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'Node.js application ready'",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.12.1"
+  }
+}
